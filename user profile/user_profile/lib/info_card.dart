@@ -11,7 +11,7 @@ class InfoCard extends StatelessWidget {
   InfoCard({
     super.key,
     @required this.text,
-    @required this.onPressed, required String ints,
+    @required this.onPressed,
   });
 
   @override
