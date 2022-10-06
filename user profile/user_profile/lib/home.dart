@@ -11,9 +11,7 @@ const roll_number = "21dec005";
 
 const phone_number = "8544912595";
 
-const instagram_id = "raghvi";
-
-
+const instagram_id = "raghvi02";
 
 
 class home extends StatelessWidget{
@@ -40,7 +38,7 @@ class home extends StatelessWidget{
 
               // we will be creating a new widget name info carrd
 
-              InfoCard(text: name, onPressed: () async {} ),
+              InfoCard(text: name, onPressed: () async {}),
               InfoCard(text: email, onPressed: () async {}),
               InfoCard(
                   text: roll_number,
